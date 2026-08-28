@@ -1,17 +1,9 @@
-IBM Bob – Important Links
-Edunet Foundation | 2025-26
+*Important Links for IBM SkillsBuild University Engagement Program*
 
-1. IBM Bob Homepage
-   https://bob.ibm.com/
+*Learning Plan:* https://skills.yourlearning.ibm.com/activity/PLAN-C6913EFE8633?ngo-id=0330&utm_campaign=aca-Edunet-TamilNadu-GLEAI-2026-27-STETWOMEN%27SCOLLEGEAUTONOMOUS
 
-2. IDE Documentation
-   https://bob.ibm.com/docs/ide
+*Attendance Link:* https://forms.gle/T1UDxCt8X3m93GXq7
 
-3. Getting Started Tutorials
-   https://bob.ibm.com/docs/ide/getting-started/tutorials
+*Credly login:* https://www.credly.com/users/sign_in
 
-4. Subscription & Admin
-   https://bob.ibm.com/admin/subscription
-
-5. IBM SkillsBuild Course (Edunet 2026-27)
-   https://skills.yourlearning.ibm.com/activity/ALM-COURSE_4071307?ngo-id=0330&utm_campaign=aca-Edunet-IBMBob-2026-27
+*IBM BOB:* https://bob.ibm.com/
