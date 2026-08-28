@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IBM Bob – Student Resources</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, "Segoe UI", system-ui, sans-serif;
+      font-size: 15px;
+      line-height: 1.6;
+      color: #1f2328;
+      background: #f7f8fa;
+    }
+
+    header {
+      background: #1f2328;
+      color: #fff;
+      padding: 2rem 1.5rem;
+      text-align: center;
+    }
+    header h1 { font-size: 1.75rem; font-weight: 700; letter-spacing: -0.3px; }
+    header p  { margin-top: 0.4rem; color: #adb5bd; font-size: 0.95rem; }
+
+    main {
+      max-width: 760px;
+      margin: 2.5rem auto;
+      padding: 0 1.25rem 3rem;
+    }
+
+    section { margin-bottom: 2.5rem; }
+
+    h2 {
+      font-size: 1.05rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #57606a;
+      border-bottom: 2px solid #e5e7eb;
+      padding-bottom: 0.4rem;
+      margin-bottom: 1rem;
+    }
+
+    /* Cards grid */
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1rem;
+    }
+
+    .card {
+      background: #fff;
+      border: 1px solid #e5e7eb;
+      border-radius: 8px;
+      padding: 1.1rem 1.25rem;
+      text-decoration: none;
+      color: inherit;
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+      transition: border-color 0.15s;
+    }
+    .card:hover { border-color: #3b82d4; }
+    .card .card-title {
+      font-weight: 600;
+      color: #3b82d4;
+      font-size: 0.98rem;
+    }
+    .card .card-desc {
+      font-size: 0.875rem;
+      color: #57606a;
+    }
+
+    /* File list */
+    .file-list { list-style: none; display: flex; flex-direction: column; gap: 0.6rem; }
+    .file-list li {
+      background: #fff;
+      border: 1px solid #e5e7eb;
+      border-radius: 6px;
+      padding: 0.75rem 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .file-list li .icon {
+      font-size: 1.2rem;
+      flex-shrink: 0;
+    }
+    .file-list a {
+      color: #3b82d4;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .file-list a:hover { text-decoration: underline; }
+    .file-list .meta { font-size: 0.8rem; color: #57606a; margin-top: 0.1rem; }
+
+    .badge {
+      display: inline-block;
+      font-size: 0.7rem;
+      font-weight: 600;
+      background: #e8f0fb;
+      color: #3b82d4;
+      border-radius: 4px;
+      padding: 1px 7px;
+      margin-left: 0.5rem;
+      vertical-align: middle;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.78rem;
+      color: #57606a;
+      border-top: 1px solid #e5e7eb;
+      padding: 1.25rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>IBM Bob – Student Resources</h1>
+  <p>Edunet Foundation &mdash; All links &amp; files in one place</p>
+</header>
+
+<main>
+
+  <!-- IMPORTANT LINKS -->
+  <section>
+    <h2>Important Links</h2>
+    <div class="card-grid">
+
+      <a class="card" href="https://bob.ibm.com/" target="_blank" rel="noopener">
+        <span class="card-title">IBM Bob Homepage</span>
+        <span class="card-desc">Your AI-powered coding assistant. Start here.</span>
+      </a>
+
+      <a class="card" href="https://bob.ibm.com/docs/ide" target="_blank" rel="noopener">
+        <span class="card-title">IDE Documentation</span>
+        <span class="card-desc">Full reference for using Bob inside VS Code.</span>
+      </a>
+
+      <a class="card" href="https://bob.ibm.com/docs/ide/getting-started/tutorials" target="_blank" rel="noopener">
+        <span class="card-title">Getting Started Tutorials</span>
+        <span class="card-desc">Step-by-step tutorials to get you productive fast.</span>
+      </a>
+
+      <a class="card" href="https://bob.ibm.com/admin/subscription" target="_blank" rel="noopener">
+        <span class="card-title">Subscription &amp; Admin</span>
+        <span class="card-desc">Manage your IBM Bob plan and team access.</span>
+      </a>
+
+      <a class="card" href="https://skills.yourlearning.ibm.com/activity/ALM-COURSE_4071307?ngo-id=0330&utm_campaign=aca-Edunet-IBMBob-2026-27" target="_blank" rel="noopener">
+        <span class="card-title">IBM SkillsBuild Course <span class="badge">Course</span></span>
+        <span class="card-desc">Official IBM learning path for this programme (Edunet 2026–27).</span>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- FILES TO DOWNLOAD -->
+  <section>
+    <h2>Files &amp; Downloads</h2>
+    <ul class="file-list">
+      <li>
+        <span class="icon">📄</span>
+        <div>
+          <a href="files/important-links.txt" download>important-links.txt</a>
+          <div class="meta">All resource links in plain text</div>
+        </div>
+      </li>
+      <!-- Add more files here as needed -->
+    </ul>
+  </section>
+
+</main>
+
+<footer>Made with IBM Bob &mdash; Edunet Foundation &copy; 2025</footer>
+
+</body>
+</html>
